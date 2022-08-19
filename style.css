@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgb(101, 101, 101), rgb(166, 166, 166));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1vh;
+    padding: 30px;
+    max-width: 400px;
+    width: 80vw;
+    max-height: 660px;
+    height: 85vh;
+    background-color:rgb(67, 67, 67);
+    box-shadow: 2px 2px 12px 12px black;
+    border-radius: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    border: 4px solid rgb(37, 37, 37);
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 12%;
+    width: 93%;
+    border-radius: 10px;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: end;
+    background-color: rgb(228, 228, 228);
+    border: 4px solid rgb(181, 181, 181);
+    color: rgb(47, 47, 47);
+    text-shadow: 1px 1px rgb(176, 176, 176);
+    border-radius: 10px;
+    height: 60%;
+    width: 90%;
+    font-size: 270%;
+    font-family: 'Abel';
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.string {
+    transition: 1s;
+}
+
+.button-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(45, 45, 45);
+    border: 4px solid rgb(37, 37, 37);
+    padding: 1.5%;
+    border-radius: 12px;
+    width: 102%;
+    max-width: 360px;
+    height: 70%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    height: 18.5%;
+    font-size: 280%;
+    border-radius: 15px;
+    font-family: 'Abel';
+    border: 3px solid rgba(179, 179, 179, 0.6);
+    overflow: hidden;
+}
+
+button:hover {
+    border: 4px solid rgb(107, 107, 107,0.5);
+}
+
+.number {
+    background-color: rgb(120, 120, 120);
+    
+}
+
+.del {
+    background-color: red;
+    font-size: 260%;
+}
+
+.signature {
+    display: flex;
+    justify-content: right;
+    font-family: 'Lucida Sans';
+    font-size: 70%;
+    margin-right: 3%;
+    letter-spacing: 3px;
+    color: rgb(169, 68, 0);
+}
