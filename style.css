@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@100;400;700&display=swap');
+*{
+    color: black;
+}
 
 body {
     background: linear-gradient(90deg, rgb(167, 82, 82), rgb(105, 160, 169));
@@ -71,6 +74,7 @@ input {
     width: 90%;
     max-width: 360px;
     height: 70%;
+    overflow: hidden;
 }
 
 button {
@@ -85,6 +89,7 @@ button {
     border-radius: 15px;
     font-family: 'Abel';
     border: 3px solid rgba(179, 179, 179, 0.6);
+    color: black;
     overflow: hidden;
 }
 

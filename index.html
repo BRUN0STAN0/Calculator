@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
@@ -12,30 +13,31 @@
             <input type="text" id="inputext" placeholder="0">
         </div>
         <div class="button-box">
-            <button onclick="calculate('%')" class="operator">%</button>
-            <button onclick="sqrt()" class="operator">√</button>
-            <button onclick="ce()" class="del">CE</button>
-            <button onclick="c()" class="del">C</button>
-            <button onclick="calculate(7)" class="number">7</button>
-            <button onclick="calculate(8)" class="number">8</button>
-            <button onclick="calculate(9)" class="number">9</button>
-            <button onclick="calculate('-')" class="operator">-</button>
-            <button onclick="calculate(4)" class="number">4</button>
-            <button onclick="calculate(5)" class="number">5</button>
-            <button onclick="calculate(6)" class="number">6</button>
-            <button onclick="calculate('/')" class="operator">/</button>
-            <button onclick="calculate(1)" class="number">1</button>
-            <button onclick="calculate(2)" class="number">2</button>
-            <button onclick="calculate(3)" class="number">3</button>
-            <button onclick="calculate('*')" class="operator">x</button>
-            <button onclick="calculate(0)" class="number">0</button>
-            <button onclick="calculate('.')" class="number">.</button>
-            <button onclick="result()" class="equal">=</button>
-            <button onclick="calculate('+')" class="operator">+</button>
+            <button onclick="playAudio('click.mp3'); calculate('%')" class="operator">%</button>
+            <button onclick="playAudio('click.mp3'); sqrt()" class="operator">√</button>
+            <button onclick="playAudio('click.mp3'); ce()" class="del">CE</button>
+            <button onclick="playAudio('click.mp3'); c()" class="del">C</button>
+            <button onclick="playAudio('click.mp3'); calculate(7)" class="number">7</button>
+            <button onclick="playAudio('click.mp3'); calculate(8)" class="number">8</button>
+            <button onclick="playAudio('click.mp3'); calculate(9)" class="number">9</button>
+            <button onclick="playAudio('click.mp3'); calculate('-')" class="operator">-</button>
+            <button onclick="playAudio('click.mp3'); calculate(4)" class="number">4</button>
+            <button onclick="playAudio('click.mp3'); calculate(5)" class="number">5</button>
+            <button onclick="playAudio('click.mp3'); calculate(6)" class="number">6</button>
+            <button onclick="playAudio('click.mp3'); calculate('/')" class="operator">/</button>
+            <button onclick="playAudio('click.mp3'); calculate(1)" class="number">1</button>
+            <button onclick="playAudio('click.mp3'); calculate(2)" class="number">2</button>
+            <button onclick="playAudio('click.mp3'); calculate(3)" class="number">3</button>
+            <button onclick="playAudio('click.mp3'); calculate('*')" class="operator">x</button>
+            <button onclick="playAudio('click.mp3'); calculate(0)" class="number">0</button>
+            <button onclick="playAudio('click.mp3'); calculate('.')" class="number">.</button>
+            <button onclick="playAudio('click.mp3'); result()" class="equal">=</button>
+            <button onclick="playAudio('click.mp3'); calculate('+')" class="operator">+</button>
         </div>
         
         <div class="signature">by Bruno Stano.</div>
     </div>
     <script src="script.js"></script>
+    
 </body>
 </html>

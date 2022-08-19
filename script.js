@@ -24,3 +24,7 @@ function ce(){
 function sqrt () {
     display.value = Math.sqrt(display.value);
 }
+
+function playAudio(url) {
+    new Audio(url).play();
+  }
