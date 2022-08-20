@@ -118,17 +118,3 @@ button:hover {
     letter-spacing: 3px;
     color: rgb(169, 68, 0);
 }
-
-p {
-    display: flex;
-    justify-content: right;
-    font-family: 'Lucida Sans';
-    font-size: 70%;
-    margin-right: 3%;
-    letter-spacing: 3px;
-}
-
-#count {
-    font-size: 16px;
-    font-weight: bolder;
-}
