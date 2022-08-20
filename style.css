@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@100;400;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/2803116d50a5be32e5435aba7d4bb941?family=alarm+clock);
 *{
     color: black;
 }
@@ -6,6 +7,7 @@
 body {
     background: linear-gradient(90deg, rgb(167, 82, 82), rgb(105, 160, 169));
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 3%;
@@ -115,4 +117,18 @@ button:hover {
     margin-right: 3%;
     letter-spacing: 3px;
     color: rgb(169, 68, 0);
+}
+
+p {
+    display: flex;
+    justify-content: right;
+    font-family: 'Lucida Sans';
+    font-size: 70%;
+    margin-right: 3%;
+    letter-spacing: 3px;
+}
+
+#count {
+    font-size: 16px;
+    font-weight: bolder;
 }

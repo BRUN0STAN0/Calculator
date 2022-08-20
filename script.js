@@ -28,3 +28,19 @@ function sqrt () {
 function playAudio(url) {
     new Audio(url).play();
   }
+
+// VISITS COUNTER PAGE
+
+const count = document.getElementById("count");
+
+incrementVisitsCount ();
+
+function incrementVisitsCount() {
+    let visits = 0;
+    if (!localStorage.getItem("visits")) localStorage.setItem("visits", 1);
+    visits = +localStorage.getItem("visits");
+    const incrementedCount = visits + 1;
+
+    localStorage.setItem("visits", incrementedCount);
+    count.innerText = localStorage.getItem("visits");
+}
